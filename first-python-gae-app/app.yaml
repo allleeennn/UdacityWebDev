@@ -1,0 +1,9 @@
+version: 2
+runtime: python27
+api_version: 1
+threadsafe: true
+application: first-python-gae-app
+
+handlers:
+- url: /.*
+  script: helloworld.app
