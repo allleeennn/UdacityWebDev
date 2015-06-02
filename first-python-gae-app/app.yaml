@@ -1,9 +1,18 @@
-version: 2
+version: 4
 runtime: python27
 api_version: 1
 threadsafe: true
 application: first-python-gae-app
 
 handlers:
+- url: /css
+  static_dir: css
+- url: /images
+  static_dir: images
 - url: /.*
   script: helloworld.app
+
+
+libraries:
+- name: jinja2
+  version: latest

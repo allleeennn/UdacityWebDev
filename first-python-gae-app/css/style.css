@@ -1,0 +1,23 @@
+body {
+	font-family: 'Josefin Sans', sans-serif;
+	color: #778899;
+	font-weight: 300;
+	background-color: #FFFFF0;
+}
+hr {
+	border: none;
+	height: 1px;
+	background-color: #D3D3D3;
+}
+.title {
+	font-size: 60px;
+}
+.subtitle{
+	font-size: 20px;
+}
+.text-muted {
+	color: #008B8B;
+}
+.text-thin{
+	font-weight: 100;
+}
